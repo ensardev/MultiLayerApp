@@ -5,6 +5,16 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiLayer.Core", "MultiLayer.Core\MultiLayer.Core.csproj", "{50B301DB-656B-4CD5-A82B-EF068FB40E72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiLayer.Repository", "MultiLayer.Repository\MultiLayer.Repository.csproj", "{5CF63CF0-436B-4962-8903-26AF082EB03D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiLayer.Service", "MultiLayer.Service\MultiLayer.Service.csproj", "{F0B136E3-FA13-4859-BA22-AB1EE54F264A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiLayer.API", "MultiLayer.API\MultiLayer.API.csproj", "{5E44FC85-9E01-4932-8788-EC68B47E9820}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiLayer.Website", "MultiLayer.Website\MultiLayer.Website.csproj", "{E6C6F09C-49F1-40B5-ACAB-F4F2C991CF48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiLayer.Caching", "MultiLayer.Caching\MultiLayer.Caching.csproj", "{56FA17AD-D544-47D9-99E2-EBB12A39CF10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{50B301DB-656B-4CD5-A82B-EF068FB40E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50B301DB-656B-4CD5-A82B-EF068FB40E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50B301DB-656B-4CD5-A82B-EF068FB40E72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF63CF0-436B-4962-8903-26AF082EB03D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF63CF0-436B-4962-8903-26AF082EB03D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF63CF0-436B-4962-8903-26AF082EB03D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF63CF0-436B-4962-8903-26AF082EB03D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0B136E3-FA13-4859-BA22-AB1EE54F264A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B136E3-FA13-4859-BA22-AB1EE54F264A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B136E3-FA13-4859-BA22-AB1EE54F264A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B136E3-FA13-4859-BA22-AB1EE54F264A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E44FC85-9E01-4932-8788-EC68B47E9820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E44FC85-9E01-4932-8788-EC68B47E9820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E44FC85-9E01-4932-8788-EC68B47E9820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E44FC85-9E01-4932-8788-EC68B47E9820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6C6F09C-49F1-40B5-ACAB-F4F2C991CF48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6C6F09C-49F1-40B5-ACAB-F4F2C991CF48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6C6F09C-49F1-40B5-ACAB-F4F2C991CF48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C6F09C-49F1-40B5-ACAB-F4F2C991CF48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56FA17AD-D544-47D9-99E2-EBB12A39CF10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56FA17AD-D544-47D9-99E2-EBB12A39CF10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56FA17AD-D544-47D9-99E2-EBB12A39CF10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56FA17AD-D544-47D9-99E2-EBB12A39CF10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
